@@ -1,4 +1,4 @@
-package com.homework;
+package com.homework.util;
 
 public class SortAlgorithms {
     private SortAlgorithms() {

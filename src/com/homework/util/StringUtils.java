@@ -1,6 +1,4 @@
-package com.homework;
-
-import java.util.Arrays;
+package com.homework.util;
 
 public class StringUtils {
     private StringUtils() {
@@ -18,7 +16,7 @@ public class StringUtils {
         SortAlgorithms.insertionSort(aChars);
         SortAlgorithms.insertionSort(bChars);
 
-        return ArrUtils.isEquals(aChars, bChars);
+        return ArrUtils.equals(aChars, bChars);
     }
 
 }

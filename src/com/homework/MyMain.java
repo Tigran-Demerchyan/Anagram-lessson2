@@ -1,5 +1,7 @@
 package com.homework;
 
+import com.homework.util.StringUtils;
+
 import java.util.Scanner;
 
 public class MyMain {
@@ -16,6 +18,11 @@ public class MyMain {
             System.out.println("no");
         }
         System.out.println(StringUtils.toUpperCaseFirstLetter(a) + " " + StringUtils.toUpperCaseFirstLetter(b));
+
+        System.out.println("-------------------------");
+
+        System.out.println(StringUtils.isAnagram("hello", "ehlLo"));
+        System.out.println(StringUtils.isAnagram("hello", "ehlLoo"));
     }
 
 

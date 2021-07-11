@@ -1,8 +1,8 @@
-package com.homework;
+package com.homework.util;
 
 public class ArrUtils {
 
-    public static boolean isEquals(char[] a, char[] b) {
+    public static boolean equals(char[] a, char[] b) {
         if (a.length != b.length) {
             return false;
         }
