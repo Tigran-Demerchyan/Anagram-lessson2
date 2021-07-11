@@ -15,11 +15,8 @@ public class MyMain {
         } else {
             System.out.println("no");
         }
-        System.out.println(toUpperCaseFirstLetter(a) + " " + toUpperCaseFirstLetter(b));
+        System.out.println(StringUtils.toUpperCaseFirstLetter(a) + " " + StringUtils.toUpperCaseFirstLetter(b));
     }
 
-    private static String toUpperCaseFirstLetter(String a) {
-        String cap = a.substring(0, 1).toUpperCase() + a.substring(1);
-        return cap;
-    }
+
 }
